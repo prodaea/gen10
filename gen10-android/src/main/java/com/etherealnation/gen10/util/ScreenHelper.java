@@ -1,9 +1,6 @@
 package com.etherealnation.gen10.util;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.res.Configuration;
-import android.util.DisplayMetrics;
 import com.etherealnation.gen10.R;
 
 /**
@@ -19,6 +16,7 @@ public class ScreenHelper {
     /**
      * see: http://stackoverflow.com/questions/5832368/tablet-or-phone-android
      * allows tests and app to determine tabletiness
+     *
      * @param context will use app context
      * @return boolean
      */

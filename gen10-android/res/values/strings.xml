@@ -2,4 +2,9 @@
 <resources>
     <string name="app_name">gen10</string>
     <string name="screen_type">phone</string>
+    <string name="PAGE_1">Page 1</string>
+    <string name="PAGE_2">Page 2</string>
+    <string name="PAGE_3">Page 3</string>
+    <string name="PAGE_4">Page 4</string>
+    <string name="PAGE_5">Page 5</string>
 </resources>
