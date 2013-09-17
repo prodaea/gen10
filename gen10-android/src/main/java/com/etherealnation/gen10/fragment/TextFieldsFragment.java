@@ -9,18 +9,21 @@ import com.etherealnation.gen10.R;
 
 /**
  * Created by lcreasy on 9/17/13.
- * ContentFragment
+ * TextFieldsFragment
  */
-public class ContentFragment extends Fragment {
+public class TextFieldsFragment extends Fragment {
+
+    public static final String TAG = TextFieldsFragment.class.getSimpleName();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = super.onCreateView(inflater, container, savedInstanceState);
 
         if (v == null) {
-            v = inflater.inflate(R.layout.content, container, false);
+            v = inflater.inflate(R.layout.fragment_text_fields, container, false);
         }
 
         return v;
     }
+
 }

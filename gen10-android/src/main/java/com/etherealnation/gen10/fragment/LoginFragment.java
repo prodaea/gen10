@@ -9,24 +9,18 @@ import com.etherealnation.gen10.R;
 
 /**
  * Created by lcreasy on 9/17/13.
- * HashListFragment
+ * LoginFragment
  */
-public class HashListFragment extends Fragment {
+public class LoginFragment extends Fragment {
 
-    public static final Integer[] MENU_IDS = new Integer[]{
-            R.string.PAGE_1,
-            R.string.PAGE_2,
-            R.string.PAGE_3,
-            R.string.PAGE_4,
-            R.string.PAGE_5
-    } ;
+    public static final String TAG = LoginFragment.class.getSimpleName();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = super.onCreateView(inflater, container, savedInstanceState);
 
         if (v == null) {
-            v = inflater.inflate(R.layout.list, container, false);
+            v = inflater.inflate(R.layout.fragment_login, container, false);
         }
 
         return v;

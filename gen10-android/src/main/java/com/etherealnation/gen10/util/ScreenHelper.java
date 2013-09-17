@@ -24,6 +24,6 @@ public class ScreenHelper {
         Context appContext = context.getApplicationContext();
 
         String screenType = appContext.getResources().getString(R.string.screen_type);
-        return screenType != PHONE;
+        return !screenType.equals(PHONE);
     }
 }

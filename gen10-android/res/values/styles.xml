@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="white">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="white20" parent="white">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

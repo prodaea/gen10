@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/loginForm"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="@string/USERNAME"
+
+        android:imeOptions="actionNext"
+        android:inputType="text|textNoSuggestions"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="@string/PASSWORD"
+
+        android:imeOptions="actionGo"
+        android:inputType="text|textNoSuggestions"
+        android:password="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="@string/LOG_IN"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            >
+
+            <CheckBox
+                android:id="@+id/showPassword"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="@string/SHOW_PASSWORD"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
