@@ -49,13 +49,13 @@ public class MenuFragment extends ListFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Activity activity = getActivity();
         if (activity == null) return null;
+        String[] ids = new String[MENU_IDS.size()];
         if (ScreenHelper.isTablet(activity)) {
-            setListAdapter(new ArrayAdapter<String>(getActivity(), R.layout.simple_list_item_1,
-                    (String[]) MENU_IDS.keySet().toArray()));
+            ids = MENU_IDS.keySet().toArray(ids);
         } else {
-            setListAdapter(new ArrayAdapter<String>(getActivity(), R.layout.simple_list_item_1,
-                    (String[]) MENU_IDS.values().toArray()));
+            ids = MENU_IDS.values().toArray(ids);
         }
+        setListAdapter(new ArrayAdapter<String>(getActivity(), R.layout.simple_list_item_1, ids));
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 

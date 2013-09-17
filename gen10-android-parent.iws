@@ -141,86 +141,7 @@
     <favorites_list name="gen10-android-parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ScreenHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/util/ScreenHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="1080">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivityTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen10-android-it/src/main/java/com/etherealnation/gen10/MainActivityTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="35" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/MenuFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="57" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1215">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextFieldsActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/TextFieldsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="4" selection-start="423" selection-end="423" vertical-scroll-proportion="0.46952224" vertical-offset="0" max-vertical-offset="607">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextFieldsFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/TextFieldsFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/LoginFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -230,9 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/gen10-android/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/util/Logger.java" />
-        <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/ContentFragment.java" />
         <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/TextFieldsFragment.java" />
         <option value="$PROJECT_DIR$/gen10-android/res/layout/fragment_buttons.xml" />
         <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/ButtonsFragment.java" />
@@ -240,12 +158,15 @@
         <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/MainActivity.java" />
         <option value="$PROJECT_DIR$/gen10-android-it/src/main/java/com/etherealnation/gen10/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/gen10-android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/Gen10App.java" />
         <option value="$PROJECT_DIR$/gen10-android-it/src/main/java/com/etherealnation/gen10/MainActivityTest.java" />
+        <option value="$PROJECT_DIR$/gen10-android/res/layout/fragment_login.xml" />
+        <option value="$PROJECT_DIR$/gen10-android/target/generated-sources/r/com/etherealnation/gen10/R.java" />
+        <option value="$PROJECT_DIR$/gen10-android/res/layout/activity.xml" />
+        <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/TextFieldsActivity.java" />
         <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/MenuFragment.java" />
-        <option value="$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/TextFieldsActivity.java" />
+        <option value="$PROJECT_DIR$/gen10-android/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -1017,7 +938,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="22" width="1920" height="1178" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1027,19 +948,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39981097" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39981097" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67045456" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.60018903" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67013234" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1083,20 +1004,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gen10-android/res/values-sw720dp/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen10-android/res/values-sw600dp/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gen10-android/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="45" selection-start="139" selection-end="139" vertical-scroll-proportion="0.04473161" vertical-offset="0" max-vertical-offset="1006">
@@ -1107,13 +1014,6 @@
     <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/util/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="39" selection-start="856" selection-end="856" vertical-scroll-proportion="0.5938417" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/TextFieldsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
@@ -1137,10 +1037,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/util/ScreenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen10-android/target/generated-sources/r/com/etherealnation/gen10/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="180" selection-end="180" vertical-scroll-proportion="0.15410958" vertical-offset="0" max-vertical-offset="584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gen10-android/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="468" selection-end="468" vertical-scroll-proportion="0.20874752" vertical-offset="0" max-vertical-offset="1006">
+        <state line="26" column="63" selection-start="940" selection-end="940" vertical-scroll-proportion="0.6151419" vertical-offset="0" max-vertical-offset="634">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="8" selection-start="1151" selection-end="1673" vertical-scroll-proportion="0.39647576" vertical-offset="0" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen10-android-it/src/main/java/com/etherealnation/gen10/MainActivityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="50" selection-start="795" selection-end="795" vertical-scroll-proportion="0.42731276" vertical-offset="54" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/MenuFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.9060206" vertical-offset="208" max-vertical-offset="1215">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,63 +1086,50 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="272" selection-end="272" vertical-scroll-proportion="0.034729317" vertical-offset="116" max-vertical-offset="1095">
+        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.023809524" vertical-offset="0" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen10-android-it/src/main/java/com/etherealnation/gen10/MainActivityTest.java">
+    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/TextFieldsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
+        <state line="8" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.17621145" vertical-offset="0" max-vertical-offset="681">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/util/ScreenHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/gen10-android/res/layout/activity.xml">
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/LoginFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="9" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.21428572" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+        <state line="27" column="90" selection-start="966" selection-end="966" vertical-scroll-proportion="0.5947136" vertical-offset="0" max-vertical-offset="681">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/MenuFragment.java">
+    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/TextFieldsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1215">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="27" column="0" selection-start="775" selection-end="775" vertical-scroll-proportion="0.4845815" vertical-offset="0" max-vertical-offset="681">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/activity/TextFieldsActivity.java">
+    <entry file="file://$PROJECT_DIR$/gen10-android/src/main/java/com/etherealnation/gen10/fragment/LoginFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="423" selection-end="423" vertical-scroll-proportion="0.46952224" vertical-offset="0" max-vertical-offset="607">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="13" column="26" selection-start="324" selection-end="324" vertical-scroll-proportion="0.17621145" vertical-offset="0" max-vertical-offset="681">
+          <folding />
         </state>
       </provider>
     </entry>

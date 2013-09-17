@@ -42,7 +42,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
                 FragmentManager fm = mActivity.getSupportFragmentManager();
                 MenuFragment menuFragment = (MenuFragment) fm.findFragmentByTag(MenuFragment.TAG);
 
-                assertEquals(menuFragment.getListAdapter().getCount(), MenuFragment.MENU_IDS.length);
+                assertEquals(menuFragment.getListAdapter().getCount(), MenuFragment.MENU_IDS.size());
             }
         });
     }
