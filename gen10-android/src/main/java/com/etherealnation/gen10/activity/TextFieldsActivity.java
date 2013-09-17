@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import com.etherealnation.gen10.R;
 import com.etherealnation.gen10.fragment.TextFieldsFragment;
+import com.etherealnation.gen10.util.ExtrasConstants;
 
 /**
  * Created by lcreasy on 9/17/13.
@@ -23,7 +24,9 @@ public class TextFieldsActivity extends FragmentActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-        fragmentTransaction.add(R.id.activityContainer, new TextFieldsFragment(), TextFieldsFragment.TAG);
+        TextFieldsFragment textFields = new TextFieldsFragment();
+        textFields.setArguments(getIntent().getBundleExtra(ExtrasConstants.LOGIN));
+        fragmentTransaction.add(R.id.activityContainer, textFields, TextFieldsFragment.TAG);
 
         fragmentTransaction.commit();
     }

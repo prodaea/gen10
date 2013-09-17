@@ -2,6 +2,7 @@ package com.etherealnation.gen10.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -9,6 +10,7 @@ import com.etherealnation.gen10.R;
 import com.etherealnation.gen10.fragment.LoginFragment;
 import com.etherealnation.gen10.fragment.MenuFragment;
 import com.etherealnation.gen10.fragment.TextFieldsFragment;
+import com.etherealnation.gen10.util.ExtrasConstants;
 import com.etherealnation.gen10.util.Logger;
 import com.etherealnation.gen10.util.ScreenHelper;
 
@@ -16,7 +18,8 @@ import com.etherealnation.gen10.util.ScreenHelper;
  * Created by lcreasy on 9/17/13.
  * MainActivity
  */
-public class MainActivity extends FragmentActivity implements MenuFragment.OnMenuItemClickedListener {
+public class MainActivity extends FragmentActivity implements MenuFragment.OnMenuItemClickedListener,
+        LoginFragment.OnLoginClickedListener {
 
     private static final String ACTIVITY_PATH = "com.etherealnation.gen10.activity.";
     private static final String FRAGMENT_PATH = "com.etherealnation.gen10.fragment.";
@@ -61,11 +64,7 @@ public class MainActivity extends FragmentActivity implements MenuFragment.OnMen
 
         if (clazz != null) {
             if (ScreenHelper.isTablet(this)) {
-                FragmentManager fragmentManager = getSupportFragmentManager();
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.remove(fragmentManager.findFragmentByTag(CONTENT_FRAGMENT))
-                        .add(R.id.contentContainer, new TextFieldsFragment(), CONTENT_FRAGMENT)
-                        .commit();
+                updateContentFragment(clazz, null);
             } else {
                 Intent intent = new Intent(this, clazz);
                 startActivity(intent);
@@ -73,4 +72,36 @@ public class MainActivity extends FragmentActivity implements MenuFragment.OnMen
         }
     }
 
+    private void updateContentFragment(Class clazz, Bundle args) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        try {
+            Fragment fragment = (Fragment) clazz.newInstance();
+            if (args != null) {
+                fragment.setArguments(args);
+            }
+
+            fragmentTransaction.remove(fragmentManager.findFragmentByTag(CONTENT_FRAGMENT))
+                    .add(R.id.contentContainer, fragment, CONTENT_FRAGMENT)
+                    .commit();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void onLoginClick(String username, String password) {
+        Bundle login = new Bundle();
+        login.putString(ExtrasConstants.USERNAME, username);
+        login.putString(ExtrasConstants.PASSWORD, password);
+        if (ScreenHelper.isTablet(this)) {
+            updateContentFragment(TextFieldsFragment.class, login);
+        } else {
+            Intent intent = new Intent(this, TextFieldsActivity.class);
+            intent.putExtra(ExtrasConstants.LOGIN, login);
+            startActivity(intent);
+        }
+    }
 }

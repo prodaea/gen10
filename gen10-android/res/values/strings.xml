@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">gen10</string>
-    <string name="screen_type">phone</string>
-    <string name="BUTTON_1">Button 1!</string>
-    <string name="USERNAME">Username</string>
-    <string name="PASSWORD">Password</string>
-    <string name="LOG_IN">Log in</string>
-    <string name="SHOW_PASSWORD">Show password</string>
+    <string name="appName">gen10</string>
+    <string name="screenType">phone</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="logIn">Log in</string>
+    <string name="showPassword">Show password</string>
+    <string name="helloTextView">Hello, TextView!</string>
+    <string name="loginBundle">Login bundle:</string>
+    <string name="blankLaunch">Launch blank Activity</string>
 </resources>

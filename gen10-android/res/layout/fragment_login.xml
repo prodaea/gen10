@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
 
         android:layout_height="wrap_content"
-        android:hint="@string/USERNAME"
+        android:hint="@string/username"
 
         android:imeOptions="actionNext"
         android:inputType="text|textNoSuggestions"
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
 
         android:layout_height="wrap_content"
-        android:hint="@string/PASSWORD"
+        android:hint="@string/password"
 
         android:imeOptions="actionGo"
         android:inputType="text|textNoSuggestions"
@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
 
             android:layout_height="wrap_content"
-            android:text="@string/LOG_IN"
+            android:text="@string/logIn"
             />
 
         <LinearLayout
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
 
                 android:layout_height="wrap_content"
-                android:text="@string/SHOW_PASSWORD"
+                android:text="@string/showPassword"
                 />
 
         </LinearLayout>

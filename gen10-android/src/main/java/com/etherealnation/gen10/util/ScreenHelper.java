@@ -23,7 +23,7 @@ public class ScreenHelper {
     public static boolean isTablet(Context context) {
         Context appContext = context.getApplicationContext();
 
-        String screenType = appContext.getResources().getString(R.string.screen_type);
+        String screenType = appContext.getResources().getString(R.string.screenType);
         return !screenType.equals(PHONE);
     }
 }

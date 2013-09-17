@@ -12,7 +12,7 @@ public class Gen10App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Logger.setAppLogTag(getString(R.string.app_name));
+        Logger.setAppLogTag(getString(R.string.appName));
         Logger.setLevel(Logger.DEBUG);
     }
 
