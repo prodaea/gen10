@@ -9,4 +9,5 @@
     <string name="helloTextView">Hello, TextView!</string>
     <string name="loginBundle">Login bundle:</string>
     <string name="blankLaunch">Launch blank Activity</string>
+    <string name="hashData">Hash data:</string>
 </resources>
